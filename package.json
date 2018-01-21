@@ -1,0 +1,32 @@
+{
+  "name": "bso",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "dependencies": {
+    "@types/react": "*",
+    "@types/react-dom": "*",
+    "@types/styled-components": "*",
+    "copy-webpack-plugin": "*",
+    "gh-pages": "*",
+    "git-revision-webpack-plugin": "*",
+    "html-webpack-plugin": "*",
+    "react": "*",
+    "react-dom": "*",
+    "source-map-loader": "*",
+    "styled-components": "*",
+    "ts-loader": "*",
+    "typescript": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*"
+  }
+}
